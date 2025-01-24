@@ -2,22 +2,56 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: linear-gradient(90deg, #3E4044 0%, #28292F 100%);
     color: #FFFFFF;
     font-family: Montserrat;
+}
+
+body{
+    background: linear-gradient(90deg, #3E4044 0%, #28292F 100%);
+}
+
+h1 , h2{
+    color: #89FFFD;
 }
 
 header{
     border: solid 3px red;
     width: 100%;
-    display: flex;
-    
 }
 
 main{
     border: solid 3px red;
 }
 
+section{
+    border: solid 3px green;
+    margin: 30px auto;
+}
+
+#NikePlus{
+
+    .Presentation-NikePlus{
+        
+    }
+
+    .button1{
+        width: 172px;
+        height: 50px;
+        top: 509px;
+        left: 122px;
+        background: #EF32D9;
+        font-weight: bold;
+        border-radius: 6px;
+
+    }
+
+    .miniature{
+        border: solid 1px whitesmoke;
+        width: 125px;
+        height: 125px;
+        object-fit: contain;
+    }
+}
 footer{
     border: solid 3px red;
 }
