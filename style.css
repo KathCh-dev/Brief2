@@ -14,6 +14,11 @@ h1 , h2{
     color: #89FFFD;
 }
 
+header{
+    border: solid 3px red;
+    width: 100%;
+}
+
 #NikePlus{
     margin: 5% ;
     height: 70vh;
@@ -68,10 +73,6 @@ h1 , h2{
     height: 38px;
 }
 
-header{
-    border: solid 3px red;
-    width: 100%;
-}
 
 main{
     border: solid 3px red;
