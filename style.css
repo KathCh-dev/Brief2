@@ -1,5 +1,23 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     background: linear-gradient(90deg, #3E4044 0%, #28292F 100%);
+    color: #FFFFFF;
+    font-family: Montserrat;
+}
+
+header{
+    border: solid 3px red;
+    width: 100%;
+    display: flex;
+    
+}
+
+main{
+    border: solid 3px red;
+}
+
+footer{
+    border: solid 3px red;
 }
