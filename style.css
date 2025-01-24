@@ -14,6 +14,60 @@ h1 , h2{
     color: #89FFFD;
 }
 
+#NikePlus{
+    margin: 5% ;
+    height: 70vh;
+    background-image: url(images-brief2/img-shoe-home.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.button1{
+    width: 172px;
+    height: 50px;
+    top: 509px;
+    left: 122px;
+    background: #EF32D9;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.miniature{
+    border: solid 1px whitesmoke;
+    width: 130px;
+    height: 130px;
+    object-fit: contain;  
+    align-items: baseline; 
+    justify-content: flex-end; 
+}
+
+.insert-NikePlus{
+
+}
+
+#Meilleures-ventes{
+    margin: 5% auto;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box{
+    width: 380px;
+    height: 380px;
+    object-fit: contain;
+}
+
+.button{
+    background:#28292F;
+    border-radius: 36px;
+    width: 68px;
+    height: 38px;
+}
+
 header{
     border: solid 3px red;
     width: 100%;
@@ -28,30 +82,14 @@ section{
     margin: 30px auto;
 }
 
-#NikePlus{
-
-    .Presentation-NikePlus{
-        
-    }
-
-    .button1{
-        width: 172px;
-        height: 50px;
-        top: 509px;
-        left: 122px;
-        background: #EF32D9;
-        font-weight: bold;
-        border-radius: 6px;
-
-    }
-
-    .miniature{
-        border: solid 1px whitesmoke;
-        width: 125px;
-        height: 125px;
-        object-fit: contain;
-    }
-}
 footer{
-    border: solid 3px red;
+    border: red 3px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.footer-text{
+    border: solid 3px green;
+    
 }
