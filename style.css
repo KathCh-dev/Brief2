@@ -83,13 +83,31 @@ section{
 }
 
 footer{
-    border: red 3px solid;
     display: flex;
-    flex-direction: column;
-    justify-content: end;
+    flex-direction:column;
 }
 
 .footer-text{
-    border: solid 3px green;
-    
+    margin: 3px;
+    display: flex;
+    justify-content: space-around;
 }
+
+li
+{
+list-style-type: none;
+}
+
+.liste{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-liens{
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
